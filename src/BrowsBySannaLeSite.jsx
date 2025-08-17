@@ -214,7 +214,7 @@ export default function BrowsBySannaLeSite() {
             <h2 className="text-2xl font-bold">About Sanna</h2>
             <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-6 items-center">
               <div className="col-span-1">
-                <img src="/images/sanna-portrait.jpg" alt="Sanna Le — Brow Artist" className="w-full rounded-xl shadow-md object-cover h-64" />
+                <img src="/images/artist_sannale.jpeg" alt="Sanna Le — Permanent Makeup Artist" className="w-full rounded-xl shadow-md object-cover h-64" />
               </div>
               <div className="sm:col-span-2">
                 <p className="text-gray-600">Hi — I’m Sanna, a licensed brow artist based in Leander, TX. I specialize in creating timeless, natural brows through precise shaping, tinting, lamination, and microblading. With X years of experience and a gentle, client-first approach, my goal is to help you feel confident every morning.</p>
