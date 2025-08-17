@@ -1,0 +1,281 @@
+/* Custom styles for Brows By Sanna Le website */
+
+/* Custom color palette to match the original design */
+.bg-cream-50 {
+    background-color: #fefcf8;
+}
+
+.bg-rose-50 {
+    background-color: #fff1f2;
+}
+
+.bg-rose-100 {
+    background-color: #ffe4e6;
+}
+
+.bg-rose-200 {
+    background-color: #fecdd3;
+}
+
+.bg-rose-300 {
+    background-color: #fda4af;
+}
+
+.bg-rose-400 {
+    background-color: #fb7185;
+}
+
+.bg-rose-500 {
+    background-color: #f43f5e;
+}
+
+.text-rose-500 {
+    color: #f43f5e;
+}
+
+.text-rose-600 {
+    color: #e11d48;
+}
+
+.text-rose-700 {
+    color: #be123c;
+}
+
+.border-rose-200 {
+    border-color: #fecdd3;
+}
+
+/* Gradient utilities */
+.from-rose-200 {
+    --tw-gradient-from: #fecdd3;
+    --tw-gradient-to: rgb(254 205 211 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-rose-400 {
+    --tw-gradient-to: #fb7185;
+}
+
+.from-rose-300 {
+    --tw-gradient-from: #fda4af;
+    --tw-gradient-to: rgb(253 164 175 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-rose-500 {
+    --tw-gradient-to: #f43f5e;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom gradient backgrounds */
+.hero-gradient {
+    background: linear-gradient(180deg, #fff7f6, transparent);
+}
+
+/* Floating button animation */
+.floating-button {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { 
+        transform: translateY(0px); 
+    }
+    50% { 
+        transform: translateY(-10px); 
+    }
+}
+
+/* Responsive image grid */
+.before-after-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+}
+
+@media (max-width: 640px) {
+    .before-after-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Service cards hover effect */
+.service-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial cards */
+.testimonial-card {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+/* Star rating */
+.star-rating {
+    color: #f43f5e;
+}
+
+/* Mobile menu toggle */
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu.active {
+    display: block;
+}
+
+/* Accessibility improvements */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Additional hover effects */
+.hover-lift {
+    transition: transform 0.2s ease-in-out;
+}
+
+.hover-lift:hover {
+    transform: translateY(-2px);
+}
+
+/* Custom button styles */
+.btn-primary {
+    background: linear-gradient(to right, #fda4af, #f43f5e);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    border: 1px solid #fecdd3;
+    color: #e11d48;
+    padding: 0.75rem 1.5rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-secondary:hover {
+    background-color: #fff1f2;
+}
+
+/* Card styles */
+.card {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border: 1px solid #f3f4f6;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styles */
+.nav-link {
+    color: #374151;
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #e11d48;
+}
+
+/* Logo styles */
+.logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fecdd3, #fb7185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section spacing */
+.section-padding {
+    padding: 2.5rem 0;
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+    .hero-title {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .hero-title {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+
+/* Loading states */
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* Focus states for accessibility */
+.btn-primary:focus,
+.btn-secondary:focus,
+.nav-link:focus {
+    outline: 2px solid #f43f5e;
+    outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+    .floating-button,
+    .mobile-menu {
+        display: none !important;
+    }
+    
+    .hero-gradient {
+        background: white !important;
+    }
+}
