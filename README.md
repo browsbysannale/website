@@ -59,16 +59,19 @@ npm run preview
 ## 🎨 Customization
 
 ### Colors
+
 The color scheme uses a rose/pink palette. To change colors, edit the CSS variables in `src/styles.css`:
 
 ```css
 .bg-rose-500 {
-    background-color: #f43f5e; /* Change this value */
+  background-color: #f43f5e; /* Change this value */
 }
 ```
 
 ### Content
+
 Update the following in `index.html`:
+
 - Business name and tagline
 - Services and pricing
 - Contact information
@@ -76,7 +79,9 @@ Update the following in `index.html`:
 - Instagram handle
 
 ### Images
+
 Replace placeholder images in `public/images/`:
+
 - `brow-before.jpg` - Before treatment photo
 - `brow-after.jpg` - After treatment photo
 - `sanna-portrait.jpg` - Sanna's portrait photo
@@ -89,7 +94,7 @@ To enable live Google reviews:
 2. Enable the Places API
 3. Add your API key to the page by setting:
    ```javascript
-   window.__GOOGLE_MAPS_API_KEY__ = 'your-api-key-here';
+   window.__GOOGLE_MAPS_API_KEY__ = "your-api-key-here";
    ```
 
 ## 📱 Mobile Features
@@ -119,6 +124,7 @@ To enable live Google reviews:
 ## 📊 Analytics Integration
 
 The JavaScript includes tracking functions for:
+
 - Booking button clicks
 - Page load performance
 - Google Analytics (if configured)
@@ -149,6 +155,7 @@ npm run preview
 ## 📞 Support
 
 For issues or questions:
+
 1. Check browser console for JavaScript errors
 2. Verify all file paths are correct
 3. Test in different browsers
