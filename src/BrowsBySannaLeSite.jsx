@@ -53,11 +53,8 @@ export default function BrowsBySannaLeSite() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center justify-between h-16">
             <div className="flex items-center gap-3">
-              <div className="rounded-full w-10 h-10 bg-gradient-to-br from-rose-200 to-rose-400 flex items-center justify-center text-white font-semibold shadow-md">SL</div>
-              <div>
-                <a href="#home" className="text-lg font-semibold">Brows By Sanna Le</a>
-                <div className="text-sm text-gray-500">Leander, Texas</div>
-              </div>
+              <img src="/public/images/logo.png" alt="Sanna Le Logo" />
+
             </div>
 
             <div className="hidden md:flex items-center gap-6">
@@ -99,10 +96,10 @@ export default function BrowsBySannaLeSite() {
             <div aria-hidden="false" className="relative w-full rounded-xl overflow-hidden shadow-lg">
               <div className="grid grid-cols-2 sm:grid-cols-2 gap-0">
                 <figure className="w-full h-56 sm:h-72 object-cover">
-                  <img src="/images/brow-before.jpg" alt="Brows before treatment" className="w-full h-full object-cover" />
+                  <img src="/public/images/before.jpg" alt="Brows before treatment" className="w-full h-full object-cover" />
                 </figure>
                 <figure className="w-full h-56 sm:h-72 object-cover">
-                  <img src="/images/brow-after.jpg" alt="Brows after treatment" className="w-full h-full object-cover" />
+                  <img src="/public/images/after.jpg" alt="Brows after treatment" className="w-full h-full object-cover" />
                 </figure>
               </div>
               <div className="absolute bottom-3 left-3 bg-white/80 px-3 py-1 rounded-full text-xs font-medium">Before — After</div>
@@ -214,7 +211,7 @@ export default function BrowsBySannaLeSite() {
             <h2 className="text-2xl font-bold">About Sanna</h2>
             <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-6 items-center">
               <div className="col-span-1">
-                <img src="/images/artist_sannale.jpeg" alt="Sanna Le — Permanent Makeup Artist" className="w-full rounded-xl shadow-md object-cover h-64" />
+                <img src="/public/images/artist_sannale.jpeg" alt="Sanna Le — Permanent Makeup Artist" className="w-full rounded-xl shadow-md object-cover h-64" />
               </div>
               <div className="sm:col-span-2">
                 <p className="text-gray-600">Hi — I’m Sanna, a licensed brow artist based in Leander, TX. I specialize in creating timeless, natural brows through precise shaping, tinting, lamination, and microblading. With X years of experience and a gentle, client-first approach, my goal is to help you feel confident every morning.</p>
